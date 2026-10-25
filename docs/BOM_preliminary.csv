@@ -1,0 +1,17 @@
+Component,Part number / specification,Qty,Est. unit cost,Est. total,Supplier / lead time,Status / source
+Controller,ESP32-C3 module: WROOM-02 (schematic v0.1) or MINI-1,1,Quotation required,,Local distributor; lead time to confirm,Proposed
+pH front-end kit,"DFRobot SEN0161-V2 (board, bench probe, buffers)",1,US$39.50,US$39.50,DFRobot; lead time to confirm,"List price, accessed 24 Oct 2026"
+Mini pH electrode,<= 8 mm combination electrode for the capsule cell,1,Quotation required,,Supplier to identify,Critical item
+EC / TDS sensor,DFRobot SEN0244 (probe pins adapted into the cell),1,US$11.80,US$11.80,DFRobot,"List price, accessed 24 Oct 2026"
+Temperature sensor,DFRobot KIT0021 waterproof DS18B20,1,US$7.50,US$7.50,DFRobot,"List price, accessed 24 Oct 2026"
+pH isolator,DFRobot DFR0504,1,US$19.90,US$19.90,DFRobot; stock to confirm,"List price, accessed 24 Oct 2026"
+Turbidity,IR LED + photodiode + amplifier (custom); DFRobot SEN0189 as bench reference,1 + 1,US$9.90 (reference),US$9.90,DFRobot / local,Reference priced; custom quote
+ADC & monitoring,ADS1115; INA219 current sensor; MCP6001 TIA; battery divider,1 set,Quotation required,,Local distributor,Proposed
+Pump,"5-6 V micro diaphragm, self-priming, food-contact wetted parts",1,Quotation required,,Supplier to identify,Proposed
+Valves,"Micro 3-way solenoid valve, 5-6 V",2,Quotation required,,Supplier to identify,Proposed
+Cartridge,Twist-lock carbon + hollow-fibre UF module; 40 um intake mesh,1 + spare,Quotation required,,Membrane / filter supplier,Proposed
+UV-C module,"UV-C LED, constant-current driver, quartz window",0-1,Quotation required,,Supplier to identify,Decision in Month 1
+Power,"Protected 18650; MCP73831 charger; AP2112K-3.3 LDO; MT3608 boost; polyfuse",1 set,Quotation required,,Local distributor,Proposed
+Drivers & HMI,"Logic-level MOSFETs, flyback diodes; 0.91-inch OLED, RGB ring, button",1 set,Quotation required,,Local distributor,Proposed
+Mechanical,"PETG shell (3D-printed), PMMA cell, silicone tubing, O-rings, grip sleeve",Lot,Quotation required,,In-house printing; materials,Proposed
+Sourced subtotal,Items with published list prices only (5 lines),,,US$88.60,"Excl. shipping, duties, GST",Partial - not a total
