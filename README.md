@@ -17,7 +17,7 @@ If it didn't improve, the capsule stops and tells you why: the cartridge may nee
 
 This repository holds our design files for the **Vishwakarma Awards 2026–27, Stage 2**.
 
-> **Where we are (October 2026):** this is the design stage. We haven't built or tested any hardware yet, so nothing here is a measured result.
+> **Where we are (October 2026):** the design files are done and our sensors are wired up on a bench. The capsule itself isn't built yet, and nothing here is a measured result.
 
 ## What's in here
 
@@ -25,7 +25,7 @@ This repository holds our design files for the **Vishwakarma Awards 2026–27, S
 |--------|------------------|
 | `cad/` | Our parametric FreeCAD model of the capsule (`.FCStd`, plus a `.STEP` export). It has 9 parts: body, cap, filter cartridge, test cell, UV-C chamber, pump, valves, electronics side and battery. Every key size comes from one parameter table. Also the script that builds the model, and screenshots. |
 | `electronics/` | Our KiCad schematic of 75 parts: USB-C charging, the 18650 battery, 3.3 V and 5 V supplies, the ESP32-C3, the ADS1115 converter, the sensor connectors, the cloudiness-sensor amplifier, the current sensor and the switches for the pump, valves and lights. It passes KiCad's electrical check with no errors or warnings. The folder also has the check report, a PDF and the script that generates the schematic. |
-| `docs/` | Our Stage 2 deck and a first parts list (CSV). Prices are DFRobot's listed prices from 24 Oct 2026. Everything else is still waiting on quotes. |
+| `docs/` | Our Stage 2 deck, a first parts list (CSV), and `photos/` from our first bench session: the ESP32 wired to the pH, TDS and turbidity sensors, and the probes in a water sample. Prices are DFRobot's listed prices from 24 Oct 2026. Everything else is still waiting on quotes. |
 | `visuals/` | The concept renders used in the deck and the scripts that drew them. |
 
 ## Rebuilding the files
